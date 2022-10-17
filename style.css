@@ -1,0 +1,247 @@
+body {
+	padding:0;
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+	font-size:0.9rem;
+}
+
+#header {
+	width:100%;
+	height:100vh;
+	background:url("prisca1.jpg");
+	background-size:cover;
+	border-radius:0 0 100px 0;
+}
+
+nav {
+	width:100%;
+	height:70px;
+	position:absolute;
+	top:0;
+	padding:;
+	background:rgba(0,0,0,0.8);
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	position:fixed;
+	z-index:1;
+}
+
+nav audio {
+	width:50%;
+	margin:0 5%;
+}
+
+nav b {
+	color:white;
+	margin:0 5%;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#header .notch {
+	width:70%;
+	height:40vh;
+	font-size:2.8rem;
+	font-weight:bold;
+	color:white;
+	font-family: 'Love Ya Like A Sister', cursive;
+	background:rgba(0,0,0,0.5);
+	position:absolute;
+	bottom:0;
+	left:0;
+	padding:8%;
+	border-radius:0% 200px 100px 0;
+	border-top:4px solid wheat;
+	animation:5s sparkle infinite;
+}
+
+#header .notch strong {
+	background:white;
+	color:black;
+	padding:5px;
+	border-radius:5px;
+}
+
+@keyframes sparkle {
+	0%{border-top:4px solid #5F9DF7; box-shadow:0 0 10px #5F9DF7;}
+	25%{border-top:4px solid #B4CDE6;box-shadow:0 0 10px #B4CDE6;}
+	50%{border-top:4px solid #87A2FB;box-shadow:0 0 10px #87A2FB;}
+	75%{border-top:4px solid wheat; box-shadow:0 0 10px wheat;}
+	100%{border-top:4px solid #31E1F7;box-shadow:0 0 10px #31E1F7;}
+}
+
+
+/*wisher's section*/
+
+#wisher {
+	padding:5%;
+	margin:30% 0;
+	background:;
+	text-align:center;
+	
+}
+
+#wisher .wisher-img {
+	width:170px;
+	height:170px;
+	margin:3% auto;
+	border-radius:50%;
+	font-weight:bolder;
+	box-shadow:0 0 10px rgba(0,0,0,0.8);
+	background:url("avatar.jpg");
+	background-size:cover;
+	background-position:center;
+}
+
+#wisher span {
+	padding:2%;
+	background:gray;
+	color:white;
+	border-radius:10px;
+}
+
+
+/*styling for the quotes section*/
+
+#quotes {
+	padding:15%;
+	font-weight:600;
+	font-style:;
+	background:#D7C0AE;
+	color:rgba(0,0,0,0.9);
+	border-radius:100px 0;
+	position:relative;
+}
+
+#quotes .quote-sign-top {
+	position:absolute;
+	top:1%;
+	left:2.7%;
+}
+
+#quotes .quote-sign-bottom {
+	position:absolute;
+	bottom:1%;
+	right:2.7%;
+}
+/*styling for photo gallery section*/
+
+#photo-gallery {
+	margin:40% 0 20%;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+#photo-gallery .img {
+	background-size:cover;
+	background-position:center;
+	border-radius:0px;
+	margin:0.5% 0;
+	box-sizing:border-box;
+}
+
+.one, .four, .seven, .nine {
+	width:100%;
+}
+
+.two {
+	width:50%;
+	height:33.3vh;
+	border-right:1px solid white;
+	background:url("prisca3.jpg");
+}
+
+.three {
+	width:50%;
+	height:33.3vh;
+	border-left:1px solid white;
+	background:url("prisca4.jpg");
+}
+
+
+.five {
+	width:50%;
+	height:33.3vh;
+	border-right:1px solid white;
+	background:url("prisca6.jpg");
+}
+
+.six {
+	width:50%;
+	height:33.3vh;
+	border-left:1px solid white;
+	background:url("prisca7.jpg");
+}
+
+
+.eight{
+	width:100%;
+	height:33.3vh;
+	background:url("prisca11.png");
+}
+
+
+/*hbd in different languages styling*/
+#hbd-languages {
+	padding:15%;
+	font-weight:550;
+}
+
+
+/*footer styling */
+
+footer {
+	margin:20% 0 0;
+	background:#D7C0AE;
+	padding:15% 15% 5%;
+}
+
+footer h1 {
+	font-weight:700;
+}
+
+footer p {
+	font-size:1rem;
+}
+
+footer .socials {
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+}
+
+footer a {
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+}
+
+footer .fa-phone {
+	color:black;
+	font-size:2.5rem;
+}
+
+
+footer .fa-whatsapp {
+	color:seagreen;
+}
+
+footer .fa-facebook {
+	color:steelblue;
+}
+
+footer .socials .btn {
+	font-size:2.5rem;
+	color:indianred;
+}
+
+
+footer .socials .btn {
+	margin:0;
+	padding:0;
+}
+
+
+footer .copy {
+	margin:50% auto 5%;
+}
