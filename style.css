@@ -8,9 +8,8 @@ body {
 #header {
 	width:100%;
 	height:100vh;
-	background:linear-gradient(to bottom, transparent, rgba(0,0,0,0.9)), url("prisca1.jpg");
+	background:linear-gradient(to bottom, transparent, rgba(0,0,0,0.9)), url("prisca12.jpg");
 	background-size:cover;
-	border-radius:;
 }
 
 nav {
@@ -42,7 +41,7 @@ nav b {
 #header .notch {
 	width:70%;
 	height:40vh;
-	font-size:2.55rem;
+	font-size:2.65rem;
 	font-weight:bold;
 	color:white;
 	font-family: 'Love Ya Like A Sister', cursive;
